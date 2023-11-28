@@ -32,7 +32,7 @@ def addbook():
       if '' in record:
          messagebox.showwarning("Error", "Field Empty Input Not Valid")
       elif b_id in book_ids:
-         messagebox.showwarning("Error", "Book with same Id already exists")
+         messagebox.showwarning("Error", "Book with this Id already exists")
       elif bname in book_names:
          messagebox.showwarning("Error", "Book with same name already exists")
       else:
